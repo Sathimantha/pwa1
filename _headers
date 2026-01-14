@@ -1,11 +1,10 @@
-  # Manifest (you probably already have)
 /manifest.json
   Content-Type: application/json
 
-# All JavaScript files (including in subfolders)
 /*.js
   Content-Type: application/javascript
+  Cache-Control: no-cache, no-store, must-revalidate
 
-# More specific if needed
-/js/*
+/service-worker.js
   Content-Type: application/javascript
+  Cache-Control: no-cache, no-store, must-revalidate
