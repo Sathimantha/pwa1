@@ -1,0 +1,10 @@
+# Force correct mime types for PWA files
+/manifest.json
+  Content-Type: application/json
+
+/service-worker.js
+/sw.js
+  Content-Type: application/javascript
+
+/icons/*
+  Cache-Control: public, max-age=31536000, immutable
